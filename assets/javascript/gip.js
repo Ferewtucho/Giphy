@@ -48,23 +48,27 @@ $(document).ready(function () {
 
                 var gifImage = $('<img>').attr("src", still).attr('data-animate', imageView).attr('data-still', still);
                 gifImage.attr('data-state', 'still');
-                
+
                 var imageAndrating = $("<div>").addClass('imgAndRating')
+
                 imageAndrating.prepend(gifImage);
-                
+
                 gifImage.on('click', playGif);
-    
+
+
 
                 // Pulling ratings for each movie
                 var rating = results[j].rating;
 
                 // console.log(rating);
                 var displayRated = $('<p>').text("Rating: " + rating);
-                imageAndrating.prepend(displayRated);
+                imageAndrating.prepend(displayRated)
                 $(".gifcontainer").prepend(imageAndrating);
                 $('').prepend(displayRated);
+                imageAndrating.hide();
+                imageAndrating.show(1000);;
             } // end for loop
-           
+
         }); // done response
 
         //function to stop and animate gifs

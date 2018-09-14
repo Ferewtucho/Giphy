@@ -1,7 +1,7 @@
 body {
 	font-family: 'Concert One', monospace;
-	background: black;
-	color: black;
+	background-image: url("../images/wallpaper2you_40575.jpg");
+	color: rgb(238, 224, 224);
 }
 
 .container {
@@ -9,8 +9,8 @@ body {
 }
 
 header.jumbotron {
-    background-color: silver;
-    opacity: 0.6;
+    background-color: green;
+    /* opacity: 0.6; */
 	border-radius: 24px;
 }
 
@@ -41,7 +41,7 @@ h3 {
 
 .anim-tv {
     font-family: 'Concert One', monospace;
-	background: black;
+	background:green;
 	border-radius: 12px;
 	color: white;
 	font-style: Courier, monospace;
@@ -54,36 +54,38 @@ h3 {
 
 .gifcontainer {
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 	flex-flow: wrap;
-	/* border: 1px solid red !important; */
 }
-
+.imgAndRating {
+	background-color: green;
+	margin: 10px;
+	padding: 10px
+}
 
 #movie-form {
 	text-align: right;
 	float: left;
+
 }
 
 img {
-    height: 200px;
+	height: 150px;
+	width: 250px;
 	margin: 20px;
-	
-	
 }
-
 
 input#movie-input {
     color:white;
     border: 2px;
-    background: black;
+    background: yellowgreen;
     border-style: solid;
-    border-color: white;
+    border-color:green;
 }
 
 input#add-movie.btn,btn-deafult {
-    color:white;
-    background-color: black;
+    color :green;
+    background-color:white;
 }
 .nonn {
 	display: inline;
