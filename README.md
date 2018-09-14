@@ -3,7 +3,7 @@
 <h3>This app displays buttons related to a certain topic and allows you to add search terms to generate additional buttons that when clicked, accesses the GIPHY API and generates 25 static GIPHY images. Click on an image to pause or play the GIF.</h3>
 
 <br>
-<img src = "assets/images/screen-shot.png" width = "400px" height = "200px">
+<img src = "assets/images/screenshot.png" width = "400px" height = "200px">
 
 <br>
 <strong>Requirements</strong>
