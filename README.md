@@ -18,3 +18,4 @@
 <br>
 
 <li>	HTML •	CSS •	Bootstrap •	JavaScript to make the page dynamic •	jQuery for Dom Manipulation •	AJAX for API GET requests.</li> 
+<strong>< a href = "https://ferewtucho.github.io/Giphy/" > Click </a> to try</strong>
